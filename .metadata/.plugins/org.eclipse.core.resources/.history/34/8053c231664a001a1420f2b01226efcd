@@ -1,0 +1,22 @@
+
+server.port = 9090
+spring.application.name = demo
+
+
+spring.datasource.url= jdbc:mysql://localhost:3306/demo
+spring.datasource.username=root
+spring.datasource.password=root
+spring.jpa.hibernate.ddl-auto=update
+
+status = error
+name = Log4j2Sample
+appenders = console
+
+appender.console.type = Console
+appender.console.name = STDOUT
+appender.console.layout.type = PatternLayout
+appender.console.layout.pattern = %d{yyyy-MM-dd HH:mm:ss} - %msg%n
+
+rootLogger.level = warn
+rootLogger.appenderRefs = stdout
+rootLogger.appenderRef.stdout.ref = STDOUT

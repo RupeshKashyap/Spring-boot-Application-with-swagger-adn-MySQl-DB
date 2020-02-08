@@ -1,0 +1,20 @@
+package com.example.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DemoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DemoApplication.class, args);
+		logger.debug("Rest controller executing");
+		logger.debug("Debugging log in our greeting method");
+		logger.info("Info log in our greeting method");
+		logger.warn("Warning log in our greeting method");
+		logger.error("Error in our greeting method");
+		logger.fatal("Damn! Fatal error. Please fix me.");
+		System.out.println("Application started");
+	}
+
+}

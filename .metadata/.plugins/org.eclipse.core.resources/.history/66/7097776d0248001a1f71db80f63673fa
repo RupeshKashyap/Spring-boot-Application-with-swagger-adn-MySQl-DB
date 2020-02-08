@@ -1,0 +1,16 @@
+package com.example.demo.seiviceInterface.serviceImpl;
+
+import org.springframework.stereotype.Service;
+
+import com.example.demo.seiviceInterface.ServiceStudentInterface;
+
+@Service
+public class ServiceStudentImpl implements  ServiceStudentInterface{
+
+	@Override
+	public void getStudent() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

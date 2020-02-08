@@ -1,0 +1,7 @@
+package com.example.demo.seiviceInterface.serviceImpl;
+
+import com.example.demo.seiviceInterface.ServiceStudentInterface;
+
+public class ServiceStudentImpl implements  ServiceStudentInterface{
+
+}
