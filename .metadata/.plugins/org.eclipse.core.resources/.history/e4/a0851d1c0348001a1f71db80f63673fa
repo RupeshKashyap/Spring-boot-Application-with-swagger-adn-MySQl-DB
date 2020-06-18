@@ -1,9 +1,0 @@
-package com.example.demo.repository;
-
-import org.springframework.data.repository.Repository;
-
-import com.example.demo.modal.Student;
-
-public interface StudentRepository extends Repository<Student, Integer> {
-
-}

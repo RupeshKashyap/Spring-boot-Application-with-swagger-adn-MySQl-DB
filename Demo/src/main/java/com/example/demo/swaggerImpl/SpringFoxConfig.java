@@ -35,7 +35,7 @@ public class SpringFoxConfig {
 				"Spring Boot REST API for Student Management",
 				"1.0",
 				"Terms of service",
-				new Contact("rashmita", "https://swagger.io/docs/open-source-tools/swagger-ui/usage/configuration/", "rashmita@gmail.com"),
+				new Contact("Rupesh Kashyap", "https://swagger.io/docs/open-source-tools/swagger-ui/usage/configuration/", "rupeshkashyap1996@gmail.com"),
 				"Apache License Version 2.0",
 				"https://www.apache.org/licenses/LICENSE-2.0", new ArrayList<>());
 		return apiInfo;
